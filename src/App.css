@@ -9,24 +9,18 @@
   padding: 20px;
   color: white;
 }
-
-.App-intro {
-  font-size: large;
+/* De aqui para abajo es para la cabecera*/
+.mui-appbar{
+    background-color:#E8F5E9;
+    color: #1B5E20;
 }
 
-.App-logo {
-    height: 60px;
-    display: inline;
-}
-.App-Cuerpo{
-    padding-bottom: 1em;
-    padding-top: 1em;
-}
 a {
-    color: white;
+    color: #1B5E20;
     font-size: 1.5em;
     text-decoration: none;
 }
+
 a:hover {
     font-size: 2em;
     background-color: darkseagreen;
@@ -38,9 +32,25 @@ ul li {
     font-family: monospace;
 }
 
+.App-logo {
+    height: 60px;
+    display: inline;
+}
+
+/* De aqui para abajo el cuerpo de la pagina */
+
+.App-Cuerpo{
+    padding-bottom: 1em;
+    padding-top: 1em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
 .block {
-    background: yellow;
-    height: 280px;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    background-image: url(banner.jpg);
+    height: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
