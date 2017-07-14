@@ -37,3 +37,10 @@ ul li {
     display: inline-block;
     font-family: monospace;
 }
+
+.block {
+    background: yellow;
+    height: 280px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
