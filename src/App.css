@@ -10,10 +10,7 @@
   color: white;
 }
 /* De aqui para abajo es para la cabecera*/
-.mui-appbar{
-    background-color:#E8F5E9;
-    color: #1B5E20;
-}
+
 
 a {
     color: #1B5E20;
@@ -50,7 +47,7 @@ ul li {
 
 .block {
     background-image: url(banner.jpg);
-    height: 50%;
+    height: 20%;
     margin-top: 20px;
     margin-bottom: 20px;
 }
