@@ -4,50 +4,35 @@
 }
 
 .App-header {
-  background-color: #c8e6c9;
-  height: 15%;
-  padding: 20px;
-  color: white;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index:2;
 }
-/* De aqui para abajo es para la cabecera*/
+.App-logo {
+    height: 2em;
+}
 
-
+.App-intro {
+  font-size: large;
+}
+.mui-appbar {
+  background-color: #2E7D32;
+}
 a {
-    color: #1B5E20;
+    color: white;
     font-size: 1.5em;
     text-decoration: none;
 }
 
 a:hover {
     font-size: 2em;
-    background-color: darkseagreen;
+    background-color: limegreen;
 }
 
 ul li {
     list-style: none;
     display: inline-block;
     font-family: monospace;
-}
-
-.App-logo {
-    height: 60px;
-    display: inline;
-}
-
-/* De aqui para abajo el cuerpo de la pagina */
-
-.App-Cuerpo{
-    padding-bottom: 1em;
-    padding-top: 1em;
-}
-
-.App-intro {
-  font-size: large;
-}
-
-.block {
-    background-image: url(banner.jpg);
-    height: 20%;
-    margin-top: 20px;
-    margin-bottom: 20px;
 }

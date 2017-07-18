@@ -6,7 +6,7 @@ class Informacion extends Component {
   render() {
     return (
         <Appbar>
-        <h3>Soy la app bar pelame perra</h3>
+        <h3>Mapa del sitio</h3>
         </Appbar>
     );
   }

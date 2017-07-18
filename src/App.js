@@ -1,16 +1,17 @@
 import React, { Component } from 'react';
-import osos from './oso.png'
+import osos from './Imagenes/oso.png';
 import './App.css';
+import Tabs from 'muicss/lib/react/tabs';
+import Tab from 'muicss/lib/react/tab';
 import Appbar from 'muicss/lib/react/appbar';
-import Button from 'muicss/lib/react/button';
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Appbar id="inicio">
-            <img src={osos} className="App-logo" alt="logo" />
+      <div className="App-header">
+        <Appbar >        
             <ul>
+                <li><img src={osos} className="App-logo" alt="logo" /></li>
                 <li><a href="#inicio">Inicio|</a></li>
                 <li><a href="#quienes">Quiénes Somos|</a></li>
                 <li><a href="#hacemos">Qué hacemos|</a></li>
@@ -20,7 +21,7 @@ class App extends Component {
                 <li><a href="#redes">Redes</a></li>
             </ul>
         </Appbar>
-    </div>
+        </div>
     );
   }
 }
