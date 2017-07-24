@@ -1,7 +1,16 @@
 .App-Cuerpo{
-    padding-bottom: 1em;
-    padding-top: 1em;
+    padding-bottom: 3em;
+    padding-top: 3em;
 }
 div{
-    text-align: center;
+    text-align: left;
+}
+.inchesImagenes{
+    width:auto;
+    height:40%;
+}
+.mui-panel{
+    margin-bottom: 3em;
+    margin-left: 2em;
+    margin-right: 2em;
 }

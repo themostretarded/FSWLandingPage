@@ -27,12 +27,23 @@ a {
 }
 
 a:hover {
-    font-size: 2em;
-    background-color: limegreen;
+   
+    color: black;
 }
 
 ul li {
     list-style: none;
     display: inline-block;
     font-family: monospace;
+    margin-left: 2em;
+}
+.mui-list--inline {
+    padding-left: 0;
+    list-style: none;
+    margin-left: -5px;
+}
+.mui--text-body2 {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
 }

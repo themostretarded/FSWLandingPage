@@ -12,5 +12,7 @@ body {
     z-index:2;
 }
 #cuerpo{
-    background-image:url("Imagenes/banner2.jpg");
+    background-image:url("Imagenes/ccpi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
