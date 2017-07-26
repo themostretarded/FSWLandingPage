@@ -24,11 +24,25 @@ a {
     color: white;
     font-size: 1.5em;
     text-decoration: none;
+    
+    animation-name: regreso;
+    animation-duration: 4s;
+    
 }
 
 a:hover {
-   
-    color: black;
+    color: white;
+    animation-name: voy;
+    animation-duration: 1s;
+    color: #000000;
+}
+  @keyframes voy {
+    from {color: whitesmoke;}
+    to {color: #000000;}
+}
+@keyframes regreso {
+    from {color: #000000;}
+    to {color: whitesmoke;}
 }
 
 ul li {
@@ -36,6 +50,7 @@ ul li {
     display: inline-block;
     font-family: monospace;
     margin-left: 2em;
+    
 }
 .mui-list--inline {
     padding-left: 0;
