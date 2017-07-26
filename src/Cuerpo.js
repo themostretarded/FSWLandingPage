@@ -16,26 +16,26 @@ class Cuerpo extends Component {
             <Panel className="mui--z4">
                 <span id="hacemos" ></span>
                 <h2>Que hacemos</h2>
-                <h3>Tratamos de inovar nuestra facultad con proyectos utiles</h3>
+                <h3>Tratamos de inovar nuestra facultad con proyectos utiles como para agilizar procesos administrativos tanto como apoyo al personal docente en tareas</h3>
             </Panel>
             
             <Panel className="mui--z4">
                 <span id="equipo"></span>
                         <h2>Nuestro Equipo</h2>
-                        <h3>Grupo de estudiantes"Posibles tarjetas con redes sociales y puesto"</h3>
+                        <h3>Necesitamos color tarjetas aqui o imagenes en carousel si no con solamente las tarjetas explicando de los cursos que se dan</h3>
             </Panel>
         
             <Panel className="mui--z4">
                 <span id="idea"></span>
                 <h2>Tienes una idea</h2>
-                <h3>Usted persona o empresa tiene alguna idea para su negocio, No dude en contactarnos nosotros nos encargamos</h3>
+                <h3>Usted persona o empresa tiene alguna idea para su negocio, No dude en contactarnos nosotros nos encargamos, posiblemente tratemos de borrar este bloque y lo añadiremos al siguiente bloque </h3>
             </Panel>
         
             <Panel className="mui--z4">
                 <span id="redes"></span>
                 <h2>Nuestros medios</h2>
-                <h3>facebook? pagina web? algo?</h3>
-                <h3>Si te interesa formar parte del equipo no dudes en contactarnos</h3>
+                <h3>Iconos de redes sociales </h3>
+                <h3>Si te interesa formar parte del equipo no dudes en contactarnos: investigar si ya existe algun correo para la fabrica y los encargados o directivos del mismo o tambien como un numer de telefono</h3>
             </Panel>
         </div>
     );
