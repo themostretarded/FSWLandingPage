@@ -68,9 +68,9 @@ nav ul li a {
       padding: 10px;
       text-decoration: none;
       background: rgb(20, 65, 0, 0.4);
-	border: 3px solid rgb(150, 150, 150);
+	border: 2px solid rgb(150, 150, 150);
       font-size: 20px;
-      border-radius: 5px;
+      border-radius: 2px;
       color: rgb(7, 7, 7);
       position: relative;
       width: 150px;
