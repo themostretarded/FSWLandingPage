@@ -10,21 +10,14 @@ body, html {
 }
 
 .contact-section {
-  background: url("../img/bg.png") no-repeat center;
-  background-size: cover;
+  background: url("../img/bg/bg_ccpi_black.jpg") repeat ;
+  background-size: cover; 
   padding: 40px 0;
-
-  /*Extracto de w3school*/
-  /* Full height */
   height: 100%; 
-  /* Center and scale the image nicely */
   background-position: center;
   background-repeat: no-repeat;
-
-  /* Needed to position the navbar */
   position: relative;
-  
-  
+  background-attachment: fixed;
 }
 
 .contact-section h1 {
@@ -35,7 +28,7 @@ body, html {
 .border {
   width: 100px;
   height: 10px;
-  background: #34495e;
+  background: rgb(20, 65, 0);
   margin: 40px auto;
 }
 
@@ -52,7 +45,7 @@ body, html {
   box-sizing: border-box;
   margin: 16px 0;
   border: 0;
-  background: #111;
+  background: rgba(40, 60, 36, 0.6);
   padding: 20px 40px;
   outline: none;
   color: #ddd;
@@ -60,7 +53,7 @@ body, html {
 }
 
 .contact-form-text:focus {
-  box-shadow: 0 0 10px 4px #34495e;
+  box-shadow: 0 0 10px 4px rgb(20, 65, 0);
 }
 
 textarea.contact-form-text {
@@ -71,7 +64,7 @@ textarea.contact-form-text {
 .contact-form-btn {
   float: right;
   border: 0;
-  background: #34495e;
+  background: rgb(20, 65, 0);
   color: #fff;
   padding: 12px 50px;
   border-radius: 20px;
@@ -80,7 +73,7 @@ textarea.contact-form-text {
 }
 
 .contact-form-btn:hover {
-  background: #2980b9;
+  background: rgb(20, 65, 0);
 }
 
 /* Position the navbar container inside the image */
@@ -91,13 +84,13 @@ textarea.contact-form-text {
 }
 
 /* The navbar */
-.topnav {
+.home {
   overflow: hidden;
-  background-color: #333;
+  background-color: rgb(20,65,0);
 }
 
 /* Navbar links */
-.topnav a {
+.home a {
   float: left;
   color: #f2f2f2;
   text-align: center;
@@ -106,7 +99,7 @@ textarea.contact-form-text {
   font-size: 17px;
 }
 
-.topnav a:hover {
+.home a:hover {
   background-color: #ddd;
-  color: black;
+  color: rgb(20, 65, 0);
 }
