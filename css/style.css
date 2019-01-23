@@ -17,12 +17,24 @@ header {
       background-size: cover;
 }
 
+.content{
+      height: 100vh;
+      background: #b2b2b2;
+}
+.content .seccion:hover{
+      height: 100%;
+      background: #5c5c5c;
+}
+
 .content {
       width: 94%;
       margin: 4em auto;
       font-size: 20px;
       line-height: 30px;
       text-align: justify;
+}
+.espacio{
+      height: 500px;
 }
 
 .logo {
@@ -42,29 +54,29 @@ nav {
       line-height: 30px;
 }
 
-nav ul {
-      line-height: 60px;
+nav a {
+      line-height: 30px;
       list-style: none;
       background: rgba(0, 0, 0, 0);
       overflow: hidden;
       color: rgb(0, 0, 0);
       padding: 0;
-      text-align: right;
+      text-align: center;
       margin: 0;
       padding-right: 20px;
       transition: 1s;
 }
 
-nav.black ul {
+nav.black a {
       background: rgba(20, 65, 0, 0.5);
 }
 
-nav ul li {
+nav a {
       display: inline-block;
       padding: 16px 20px;;
 }
 
-nav ul li a {
+nav a {
       padding: 10px;
       text-decoration: none;
       background: rgb(20, 65, 0, 0.4);
@@ -75,7 +87,7 @@ nav ul li a {
       position: relative;
       width: 150px;
 }
-nav ul li a:hover{
+nav a:hover{
       border: 3px solid rgb(255, 255, 255);
 }
 
@@ -90,7 +102,7 @@ nav ul li a:hover{
       color: #fff;
       display: none;
 }
-
+/*
 @media(max-width: 786px) {
 
       .logo {
@@ -124,3 +136,4 @@ nav ul li a:hover{
       }
 
 }
+*/
