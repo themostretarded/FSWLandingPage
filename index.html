@@ -1,60 +1,93 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <meta http-equiv="X-UA-Compatible" content="ie=edge">
-      <title>Fábrica de software</title>
-      <link rel="stylesheet" href="./css/style.css">
-      <link rel='stylesheet' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
-
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Fabrica de Software</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+    <link rel='stylesheet' href='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css'>
 </head>
 <body>
-      <div class="wrapper">
-            <header>
-                  <nav>
-                        <div class="logo">
-                              <img src="./img/FSWlogo.png" alt="FSW logo" width="10%">
-                        </div>
+    <div class="container">
+        <header>
+            <nav>
+                <div class="menu">
+                <a href="./index.html"><img src="./img/FSWlogo.png" class="logo" alt="FSW logo" width="10%"></a>
+                <a href="#pro" data-ancla="pro" class="btn" alt="Boton de Proyectos">Proyectos</a>
+                <a href="#con" data-ancla="con" class="btn" alt="Boton de Contactos">Contacto</a>
+                <a href="#ser" data-ancla="ser" class="btn" alt="Boton de Servicios">Servicios</a>
+                </div>
 
-                        <div class="menu">
-                              <a href="#uno" data-ancla="uno">Uno</a>
-                              <a href="#dos" data-ancla="dos" >Dos</a>
-                              <a href="#tres" data-ancla="tres">Tres</a>
-                        </div>
-
-                  </nav>
-            </header>
-            
-
-            <div class="content">
-                  <div class="seccion">
-                        <A name="uno" id="uno">Este es el uno </A>
-                        <p class="espacio">
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        </p>
-                  </div>
-                  <div class="seccion">
-                        <A name="dos" id="dos">Este es el uno </A>
-                        <p class="espacio">
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        </p>
-                  </div>
-                  <div class="seccion">
-                        <A name="tres" id="tres">Este es el uno </A>
-                        <p class="espacio">
-                              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
-                        </p>
-                  </div>
+          </nav>
+        </header>
+        <div class="contenido">
+            <div class="servicio">
+                <div class="margen">
+                    <A name="ser" id="ser">Este es Servicios </A>
+                    <br><br><br>
+                    <h2>Servicios</h2>
+                    <p>Tenemos a Marquitos
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Ad culpa doloremque dolorum nemo, necessitatibus, 
+                    autem voluptatibus aperiam nobis illo cumque pariatur nostrum expedita. 
+                    Vero accusantium esse a dolorum ipsam sapiente.
+                    </p> 
+                </div>
+                
             </div>
+            <div class="contacto">
+                <div class="margen">
+                    <A name="con" id="con">Este es Contacto </A>
+                    <br><br><br>
+                    <h2>Contacto</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Doloremque ut optio ducimus, ab in tempore neque exercitationem 
+                    laborum deleniti vel laudantium quaerat eius corporis libero ratione 
+                    repudiandae laboriosam, commodi veritatis!
+                    El numero del Marquitos es 8118931338
+                    </p>
+                </div>
+            </div>
+            <div class="proyectos">
+                <A name="pro" id="pro">Este es Proyectos </A>
+                <br><br><br>
+                <h2>Proyectos</h2>
+                <p>Proyectos alcanzados es tener a Marquitos
+                     y su Skin de invierno con lentes ademas de tener a 
+                     Marquitos Skin de invierno con lentes y gorro
+                </p>
+                
+                <div class="imgproyectos">
+                    <div>
+                        <img id="imgCajeros" src="./img/Portafolio/Cajeros/portada.png" width="80" 
+                            onmouseout="this.src='./img/Portafolio/Cajeros/portada.png';" alt="Imagen demostrativa">
+                        <img id="imgLockers" src="./img/Portafolio/Lockers/portada.png" width="80" 
+                            onmouseout="this.src='./img/Portafolio/Lockers/portada.png';" alt="Imagen demostrativa">
+                        <img id="imgLockers" src="./img/Portafolio/Servicios_Generales/portada.png" width="80" 
+                            onmouseout="this.src='./img/Portafolio/Servicios_Generales/portada.png';" alt="Imagen demostrativa">
+                        <img id="imgLockers" src="./img/Portafolio/RADA/portada.png" width="80" 
+                            onmouseout="this.src='./img/Portafolio/RADA/portada.png';" alt="Imagen demostrativa">
+                    </div>
+                </div>
 
-            <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
-            <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
-            <script  src="js/index.js"></script>
+            </div>
+        </div>
 
-      </div>
+       
+    <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+    <script src='http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js'></script>
+    <script src="./js/index.js"></script>
+    <script src="./js/imagnes.js"></script>
 
-      
+    </div>
 
+    <footer>
+        <p>
+            Copyright &copy; 
+            <script>document.write(new Date().getFullYear());</script> 
+            | All rights reserved by FSW
+        </p>
+    </footer>
 </body>
 </html>

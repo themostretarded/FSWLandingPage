@@ -1,0 +1,79 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: "montserrat", sans-serif;
+    font-weight: lighter;
+    background: url("../img/bg/bg.png");
+}
+
+header {
+    width: 100%;
+    height: 100vh;
+    background: url('../img/bg/bg_ccpi.jpg') no-repeat center center;
+    background-size: cover; 
+    background-position: center;
+}
+nav{
+    display: inline;
+    position: fixed;
+    background: #116615cc;
+}
+.logo{
+    float: left;
+}
+
+.menu .btn{
+    text-decoration: none;
+    color: bisque;
+    padding: 20px;
+    border-left: 40px;
+    float: right;
+}
+.btn:hover{
+    background: #0b380daa;
+    color: #fff;
+}
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+.margen{
+    margin: 5%
+}
+.servicio{
+    height: 100vh;
+    width: 80%;
+    margin: 4em auto;
+    background: #dddddd;
+}
+.contacto{
+    height: 100vh;
+    width: 80%;
+    margin: 4em auto;
+    background: #dddddd;
+}
+.proyectos{
+    height: 100%;
+    width: 80%;
+    margin: 4em auto;
+    background: #dddddd;
+}
+.imgproyectos {
+    text-align: center;
+    width: 100%;
+}
+
+.imgproyectos img {
+    margin: 1%;
+    width: 45%;
+}
+footer{
+    height: 100%;
+    background: #5e5e5e;
+    text-align: center;
+    color: #fff;
+}
