@@ -17,7 +17,7 @@ header {
 nav{
     display: inline;
     position: fixed;
-    background: #116615cc;
+    background: rgb(72, 97, 75);
 }
 .logo{
     float: left;
@@ -25,7 +25,7 @@ nav{
 
 .menu .btn{
     text-decoration: none;
-    color: bisque;
+    color: black;
     padding: 20px;
     border-left: 40px;
     float: right;
